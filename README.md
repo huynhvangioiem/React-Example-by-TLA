@@ -1,23 +1,43 @@
 # React Hooks Learning Project
 
-This project serves as an interactive learning platform for React hooks and concepts. Built with React, TypeScript, and Vite, it provides practical examples and demonstrations of various React hooks and their use cases, with a modern and beautiful UI powered by TailwindCSS.
+An interactive learning platform for React hooks, concepts, and best practices. Built with React 19, TypeScript, and Vite, featuring a modern UI powered by TailwindCSS.
 
 ## Project Overview
 
-The project features a collection of interactive examples demonstrating different React hooks and concepts:
+This project provides a structured educational experience for learning React, organized into three main sections:
 
-- **useState**: Examples showing state management in functional components
-- **useEffect**: Demonstrations of handling side effects
-- **useContext**: Examples of sharing data without prop drilling
-- **Custom Hooks**: Implementation of reusable custom hooks
-- **Component Patterns**: Best practices for component composition
+### 1. Hello React (Fundamentals)
+
+- **JSX** - JavaScript XML syntax basics
+- **Components & Props** - Building reusable components
+- **State & Events** - Managing component state and handling events
+- **Conditional Rendering & Lists** - Dynamic content rendering
+- **Component Composition** - Composing components together
+
+### 2. React Hooks
+
+- **useState** - State management in functional components
+- **useEffect** - Side effects and component lifecycle
+- **useCallback** - Memoizing callback functions
+- **useMemo** - Memoizing expensive calculations
+- **useRef** - Persistent mutable values and DOM access
+- **useContext** - Sharing data without prop drilling
+- **useReducer** - Complex state management with reducers
+- **Custom Hooks** - Creating reusable hook patterns (useDebounce, useLocalStorage)
+
+### 3. Built-in React APIs
+
+- **React.memo** - Component memoization for performance
+- **React.lazy** - Code splitting and lazy loading
+- **React.Suspense** - Loading states and fallback UI
+- **Error Boundaries** - Graceful error handling in component trees
 
 Each example includes:
 
-- Detailed explanations
-- Interactive demonstrations
-- Code snippets
-- Best practices
+- Detailed explanations and overview
+- Interactive live demonstrations
+- Code snippets with syntax highlighting
+- Best practices and common pitfalls
 - Real-world use cases
 
 ## Getting Started
@@ -32,7 +52,7 @@ Each example includes:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/reactjs-example.git
+git clone https://github.com/huynhvangioiem/React-Example-by-TLA.git
 cd reactjs-example
 ```
 
@@ -54,17 +74,27 @@ npm run dev
 
 ```
 reactjs-example/
-├── src/                    # Source code
-│   ├── components/         # Reusable UI components
-│   ├── pages/             # Page components
+├── src/
+│   ├── components/
+│   │   ├── examples/      # Example implementations (17 categories)
+│   │   ├── home/          # Home page components
+│   │   ├── ui/            # Reusable UI components
+│   │   ├── Header.tsx     # Site header
+│   │   ├── Footer.tsx     # Site footer
+│   │   ├── ExampleHeader.tsx
+│   │   ├── ExampleSidebar.tsx
+│   │   └── NavigationCard.tsx
+│   ├── pages/             # Page components (18 routes)
 │   ├── lib/               # Utility functions
+│   ├── App.tsx            # Router configuration
 │   └── main.tsx           # Application entry point
 ├── public/                # Static assets
 ├── index.html             # HTML entry point
 ├── vite.config.ts         # Vite configuration
 ├── tsconfig.json          # TypeScript configuration
+├── tailwind.config.ts     # TailwindCSS configuration
 ├── components.json        # UI components configuration
-└── package.json          # Project dependencies and scripts
+└── package.json           # Project dependencies and scripts
 ```
 
 ## Available Scripts
@@ -85,15 +115,15 @@ reactjs-example/
 - **Lucide React** - For beautiful icons
 - **Class Variance Authority** - For type-safe component variants
 
-## UI Components
+## Features
 
-The project uses a combination of custom components and Radix UI primitives, styled with TailwindCSS:
-
-- Accessible UI components from Radix UI
-- Responsive design with TailwindCSS
-- Custom animations with tw-animate-css
-- Modern and clean user interface
-- Dark mode support
+- **Interactive Examples** - Live, editable demos for each concept
+- **Sidebar Navigation** - Easy navigation within each topic
+- **Responsive Design** - Works on desktop and mobile devices
+- **Type Safety** - Full TypeScript implementation
+- **Modern React** - Uses React 19 with latest patterns and best practices
+- **Accessible UI** - Built with Radix UI primitives
+- **Custom Animations** - Smooth transitions with tw-animate-css
 
 ## Contributing
 
