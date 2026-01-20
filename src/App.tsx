@@ -21,7 +21,7 @@ import ComponentComposition from "./pages/ComponentComposition";
 import ErrorBoundaries from "./pages/ErrorBoundaries";
 function App() {
     return (
-        <Router basename="reactjs-example">
+        <Router basename="React-Example-by-TLA">
             <div className="min-h-screen bg-gray-100 flex flex-col">
                 <Header />
                 <Routes>

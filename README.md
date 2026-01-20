@@ -2,6 +2,8 @@
 
 An interactive learning platform for React hooks, concepts, and best practices. Built with React 19, TypeScript, and Vite, featuring a modern UI powered by TailwindCSS.
 
+**Live Demo:** [https://huynhvangioiem.github.io/React-Example-by-TLA/](https://huynhvangioiem.github.io/React-Example-by-TLA/)
+
 ## Project Overview
 
 This project provides a structured educational experience for learning React, organized into three main sections:
