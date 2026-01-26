@@ -2,7 +2,7 @@
 
 An interactive learning platform for React hooks, concepts, and best practices. Built with React 19, TypeScript, and Vite, featuring a modern UI powered by TailwindCSS.
 
-**Live Demo:** [https://huynhvangioiem.github.io/React-Example-by-TLA/](https://huynhvangioiem.github.io/React-Example-by-TLA/)
+**Live Demo:** [https://huynhvangioiem.github.io/react-example-by-tla/](https://huynhvangioiem.github.io/react-example-by-tla/)
 
 ## Project Overview
 
@@ -54,7 +54,7 @@ Each example includes:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/huynhvangioiem/React-Example-by-TLA.git
+git clone https://github.com/huynhvangioiem/react-example-by-tla.git
 cd reactjs-example
 ```
 

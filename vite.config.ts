@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
-    base: '/React-Example-by-TLA/', // This should match your GitHub repository name
+    base: '/react-example-by-tla/', // This should match your GitHub repository name
     plugins: [react(), tailwindcss()],
     resolve: {
         alias: {
